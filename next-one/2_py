@@ -1,0 +1,25 @@
+# Day 2 - Lists
+skills = ["linux", "git", "python", "aws", "docker"]
+
+# Print whole list
+print("My skills:", skills)
+
+# Print one item (index starts at 0)
+print("First skill:", skills[0])
+print("Last skill:", skills[-1])
+
+# Add a skill
+skills.append("kubernetes")
+print("After adding k8s:", skills)
+
+# Remove a skill
+skills.remove("git")
+print("After removing git:", skills)
+
+# How many skills
+print("Total skills:", len(skills))
+
+# Loop through all skills
+print("\n-- My Cloud Skills --")
+for skill in skills:
+    print("→", skill)

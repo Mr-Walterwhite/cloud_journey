@@ -1,0 +1,9 @@
+name = "shiva"
+age=20
+is_student= True 
+gpa = 0
+print ("name",name)
+print ("age:",age)
+print(is_student)
+print(gpa)
+
